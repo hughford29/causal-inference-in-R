@@ -29,7 +29,7 @@ If `x` is partially missing but `y` is not, you can measure the mean of `y` with
 However, for joint parameters, like a regression coefficient, you can only calculate the value for observations where both `x` and `y` are complete.
 Many tools in R, like `lm()`, quietly drop rows that are not complete for necessary variables by default.
 
-Using only observation where the needed variables are all complete is sometimes called a *complete-case analysis*, which we've been doing thus far in the book.
+Using only observations where the needed variables are all complete is sometimes called a *complete-case analysis*, which we've been doing thus far in the book.
 :::
 
 In the TouringPlans data, most variables are complete and likely accurately measured (e.g., ticket season and historic weather are well-measured).
